@@ -3,8 +3,9 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className="container">
-      <h1>Welcome to our site</h1>
-      <p>Site is on maintainence.</p>
+      <h1>Welcome to indigoal</h1>
+      <p>This site is about sports scores.</p>
+      <p className='notice'>Site in under maintainense</p>
 
       <style jsx>{`
         .container {
@@ -129,6 +130,10 @@ export default function Home() {
           height: 1em;
         }
 
+        .notice{
+          color: red;
+        }
+
         @media (max-width: 600px) {
           .grid {
             width: 100%;
@@ -151,6 +156,8 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4532636649213883"
+     crossorigin="anonymous"></script>
     </div>
   )
 }
